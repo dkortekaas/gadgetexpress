@@ -1,0 +1,18 @@
+/*
+Theme Name: Gadget Express
+ Description: Used to style Gutenberg Blocks in the editor.
+ */
+
+
+/* List styles */
+
+.edit-post-visual-editor ul:not(.wp-block-gallery),
+.editor-block-list__block ul:not(.wp-block-gallery),
+.block-library-list ul,
+.edit-post-visual-editor ol,
+.editor-block-list__block ol,
+.block-library-list ol,
+.block-library-list .editor-rich-text__tinymce {
+	margin: 0 0 1.5em 1.5em;
+	padding: 0;
+}

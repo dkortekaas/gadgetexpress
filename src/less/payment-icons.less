@@ -1,0 +1,32 @@
+.payment-icons {
+    .payment-icon {
+        display: inline-block;
+        opacity: .6;
+        transition: opacity .3s;
+        border-radius: 5px;
+        background-color: rgba(0,0,0,0.1);
+        padding-bottom: 0;
+        padding: 3px 5px 5px;
+        margin: 3px 3px 5px;
+        svg,
+        img {
+            vertical-align: middle;
+            height: auto;
+            width: 40px;
+            fill: #bbb;
+            transition: .5s;
+            &:hover {
+                fill: @primary-color;
+            }
+        }
+        img {
+            max-height: 20px;
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+            &:hover {
+                -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+                filter: grayscale(0%);
+            }
+        }
+    }
+}
