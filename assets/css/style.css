@@ -6586,7 +6586,7 @@ div.aligncenter {
   border-radius: 0;
   text-align: center;
 }
-.woocommerce
+/* .woocommerce
   ul.products
   li.product
   .footer-button
@@ -6609,7 +6609,7 @@ div.aligncenter {
   font: normal normal normal 14px/1 linearicons;
   font-size: 16px;
   text-align: center;
-}
+} */
 .woocommerce
   ul.products
   li.product
@@ -7595,7 +7595,7 @@ div.aligncenter {
   line-height: 44px;
   min-width: 250px;
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .woocommerce div.product div.summary .single_add_to_cart_button:after {
   border-width: 1px;
@@ -10046,7 +10046,7 @@ div.aligncenter {
 .woocommerce-cart .woocommerce table.cart td.actions .coupon,
 .woocommerce-cart .woocommerce table.checkout td.actions .coupon {
   padding-top: 40px;
-  max-width: 360px;
+  max-width: 475px;
 }
 .woocommerce-cart .woocommerce table.cart td.actions .coupon label,
 .woocommerce-cart .woocommerce table.checkout td.actions .coupon label {
@@ -10058,19 +10058,19 @@ div.aligncenter {
   font-weight: 700;
 }
 .woocommerce-cart .woocommerce table.cart td.actions .coupon .input-text,
-.woocommerce-cart .woocommerce table.checkout td.actions .coupon .input-text {
-  width: 100%;
+.woocommerce-cart .woocommerce table.checkout td.actions .coupon .input-text {  
   border: 2px solid #eaeaea;
   padding: 10px 80px 12px 20px;
   float: none;
   margin: 0;
   font-size: 14px;
+  display: inline-block;
 }
 .woocommerce-cart .woocommerce table.cart td.actions .coupon .button,
 .woocommerce-cart .woocommerce table.checkout td.actions .coupon .button {
-  background-color: transparent;
+  background-color: #5d8aa5 !important;
   border: 0;
-  color: #222;
+  color: #fff;
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
@@ -10078,9 +10078,7 @@ div.aligncenter {
   height: 46px;
   line-height: 42px;
   padding: 0 20px;
-  position: absolute;
-  top: 0;
-  right: 0;
+  display: inline-block;
 }
 .woocommerce-cart .woocommerce table.cart td.actions .coupon .button:active,
 .woocommerce-cart
@@ -10127,7 +10125,7 @@ div.aligncenter {
   padding: 0;
 }
 .woocommerce-cart .woocommerce table.shop_table.cart tr td {
-  padding: 0 0 30px;
+  padding: 10px 10px 10px 0;
 }
 .woocommerce-cart .woocommerce table.shop_table.cart tr.cart-item-1 td {
   padding-top: 30px;
@@ -10235,7 +10233,7 @@ div.aligncenter {
   border: 2px solid #eaeaea;
   background-color: #f5f5f5;
   border-radius: 0;
-  padding: 0 10px 0 30px;
+  padding: 0 30px;
   margin: 0;
 }
 .woocommerce-cart
