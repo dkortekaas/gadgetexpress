@@ -56,7 +56,7 @@ $yith_exist_display = ( $exists && ! $available_multi_wishlist ) ? 'block' : 'no
                 data-original-title="<?php esc_attr_e( 'Save', 'gadget' ) ?>"
                 data-rel="tooltip"
         >
-			<?php echo '' . $icon; ?>
+			<?php //echo '' . $icon; ?>
             <span class="indent-text"><?php echo '' . $label; ?></span>
         </a>
 	<?php endif; ?>

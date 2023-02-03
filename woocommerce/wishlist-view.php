@@ -314,13 +314,13 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 
 
 					<?php
-					do_action( 'yith_wcwl_before_wishlist_share', $wishlist_meta );
+					// do_action( 'yith_wcwl_before_wishlist_share', $wishlist_meta );
 
-					if ( is_user_logged_in() && $is_user_owner && ! $is_private && $share_enabled ) {
-						yith_wcwl_get_template( 'share.php', $share_atts );
-					}
+					// if ( is_user_logged_in() && $is_user_owner && ! $is_private && $share_enabled ) {
+					// 	//yith_wcwl_get_template( 'share.php', $share_atts );
+					// }
 
-					do_action( 'yith_wcwl_after_wishlist_share', $wishlist_meta );
+					// do_action( 'yith_wcwl_after_wishlist_share', $wishlist_meta );
 					?>
                 </td>
             </tr>
