@@ -6375,6 +6375,12 @@ div.aligncenter {
   .product-summary {
   padding-left: 55px;
 }
+.woocommerce.sidebar-content
+  div.product.gadgetexpress-product-layout-1
+  .product-summary
+  > .yith-wcwl-add-to-wishlist.add-to-wishlist-80 {
+  display: none;
+}
 .woocommerce.content-sidebar
   div.product.gadgetexpress-product-layout-1
   .woocommerce-product-gallery
@@ -7633,7 +7639,7 @@ div.aligncenter {
   padding: 23px 0;
   border-top: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
-  margin: 0 -27px 100px;
+  margin: 0 -27px 50px;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
   border-radius: 0;
@@ -10058,7 +10064,7 @@ div.aligncenter {
   font-weight: 700;
 }
 .woocommerce-cart .woocommerce table.cart td.actions .coupon .input-text,
-.woocommerce-cart .woocommerce table.checkout td.actions .coupon .input-text {  
+.woocommerce-cart .woocommerce table.checkout td.actions .coupon .input-text {
   border: 2px solid #eaeaea;
   padding: 10px 80px 12px 20px;
   float: none;
@@ -14173,7 +14179,7 @@ div.mb-siwc-popup div.mb-siwc-popup-inner a:hover {
 }
 .site-footer .widget .widget-title {
   font-size: 14px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: 700;
 }
 .site-footer .widget ul li {
