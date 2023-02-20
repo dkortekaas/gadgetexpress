@@ -22,34 +22,6 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 		<?php
 		do_action( 'yith_wcwl_before_wishlist_title', $wishlist_meta );
 
-		if ( ! empty( $page_title ) ) :
-			$custom_list_class = $is_custom_list ? 'wishlist-title-with-form' : '';
-			?>
-            <div class="wishlist-title <?php echo esc_attr( $custom_list_class ); ?>">
-				<?php echo apply_filters( 'yith_wcwl_wishlist_title', '<h2>' . $page_title . '</h2>' ); ?>
-				<?php if ( $is_custom_list ): ?>
-                    <a class="btn button show-title-form">
-						<?php echo apply_filters( 'yith_wcwl_edit_title_icon', '<i class="fa fa-pencil"></i>' ) ?>
-						<?php esc_html_e( 'Edit title', 'gadget' ) ?>
-                    </a>
-				<?php endif; ?>
-            </div>
-			<?php if ( $is_custom_list ): ?>
-            <div class="hidden-title-form">
-                <input type="text" value="<?php echo esc_attr( $page_title ) ?>" name="wishlist_name"/>
-                <button>
-					<?php echo apply_filters( 'yith_wcwl_save_wishlist_title_icon', '<i class="fa fa-check"></i>' ) ?>
-					<?php esc_html_e( 'Save', 'gadget' ) ?>
-                </button>
-                <a class="hide-title-form btn button">
-					<?php echo apply_filters( 'yith_wcwl_cancel_wishlist_title_icon', '<i class="fa fa-remove"></i>' ) ?>
-					<?php esc_html_e( 'Cancel', 'gadget' ) ?>
-                </a>
-            </div>
-		<?php endif; ?>
-		<?php
-		endif;
-
 		do_action( 'yith_wcwl_before_wishlist', $wishlist_meta ); ?>
 
         <!-- WISHLIST TABLE -->
