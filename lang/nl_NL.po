@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Gadget Express\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-29 20:38+0100\n"
-"PO-Revision-Date: 2022-12-29 21:10+0100\n"
+"POT-Creation-Date: 2023-02-09 14:57+0100\n"
+"PO-Revision-Date: 2023-02-09 15:02+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
-"X-Poedit-KeywordsList: _e;__;esc_html__\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: inc\n"
 "X-Poedit-SearchPath-1: parts\n"
@@ -38,6 +38,28 @@ msgstr ""
 "X-Poedit-SearchPath-21: template-home-no-footer.php\n"
 "X-Poedit-SearchPath-22: template-homepage.php\n"
 
+#: 404.php:18
+msgid "ohh! page not found"
+msgstr "ohh! Pagina niet gevonden"
+
+#: 404.php:21
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help "
+"or go back to "
+msgstr ""
+"Het lijkt erop dat we niet kunnen vinden wat je zoekt. Misschien kan zoeken "
+"helpen of teruggaan naar"
+
+#: 404.php:22
+msgid "Homepage"
+msgstr "Startpagina"
+
+#: comments.php:48 comments.php:70
+#, fuzzy
+#| msgid "Product navigation"
+msgid "Comment navigation"
+msgstr "Navigatie"
+
 #: comments.php:51 comments.php:73
 msgid "Older Comments"
 msgstr "Oudere reacties"
@@ -45,6 +67,10 @@ msgstr "Oudere reacties"
 #: comments.php:52 comments.php:74
 msgid "Newer Comments"
 msgstr "Nieuwere reacties"
+
+#: comments.php:86
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten"
 
 #: comments.php:95
 msgid "Your email address will not be published."
@@ -80,7 +106,8 @@ msgstr "Ontwikkeld door internetbureau Weblogiq"
 msgid "None"
 msgstr ""
 
-#: inc/backend/customizer.php:210
+#: inc/backend/customizer.php:210 inc/mega-menu/tmpl/menus.php:7
+#: inc/mega-menu/tmpl/menus.php:9
 msgid "General"
 msgstr ""
 
@@ -287,7 +314,7 @@ msgstr ""
 #: inc/backend/customizer.php:644 inc/backend/customizer.php:971
 #: inc/backend/customizer.php:1114 inc/backend/customizer.php:2019
 #: inc/backend/customizer.php:2470 inc/backend/customizer.php:2502
-#: inc/backend/meta-boxes.php:219
+#: inc/backend/meta-boxes.php:219 inc/mega-menu/tmpl/background.php:18
 msgid "Background Color"
 msgstr ""
 
@@ -298,12 +325,13 @@ msgid "Color"
 msgstr "Kleur"
 
 #: inc/backend/customizer.php:656 inc/backend/product-meta-box-data.php:117
-#: inc/frontend/woocommerce.php:1146
+#: inc/frontend/woocommerce.php:1146 inc/widgets/language-currency.php:151
 msgid "Default"
 msgstr ""
 
 #: inc/backend/customizer.php:657 inc/backend/customizer.php:737
 #: inc/backend/customizer.php:833 inc/backend/meta-boxes.php:120
+#: inc/mega-menu/tmpl/background.php:39 inc/mega-menu/tmpl/background.php:54
 msgid "Custom"
 msgstr ""
 
@@ -327,6 +355,7 @@ msgstr ""
 #: inc/backend/customizer.php:1026 inc/backend/customizer.php:2424
 #: inc/backend/customizer.php:2523 inc/backend/customizer.php:2536
 #: inc/backend/meta-boxes.php:238 inc/backend/meta-boxes.php:250
+#: inc/mega-menu/tmpl/background.php:37
 msgid "Center"
 msgstr ""
 
@@ -393,7 +422,7 @@ msgstr ""
 msgid "Menu Extras"
 msgstr ""
 
-#: inc/backend/customizer.php:768
+#: inc/backend/customizer.php:768 inc/frontend/footer.php:378
 msgid "Search"
 msgstr ""
 
@@ -468,10 +497,11 @@ msgstr ""
 msgid "Search Content Type"
 msgstr ""
 
-#: inc/backend/customizer.php:865 inc/functions/entry.php:770
-#: inc/widgets/product-cat.php:118 inc/widgets/product-tag.php:98
+#: inc/backend/customizer.php:865 inc/frontend/footer.php:400
+#: inc/functions/entry.php:770 inc/widgets/product-cat.php:118
+#: inc/widgets/product-tag.php:98
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: inc/backend/customizer.php:866
 msgid "Only products"
@@ -509,6 +539,7 @@ msgstr ""
 #: inc/backend/customizer.php:1229 inc/backend/customizer.php:1376
 #: inc/backend/customizer.php:2282 inc/backend/customizer.php:2509
 #: inc/backend/meta-boxes.php:224 inc/backend/meta-boxes.php:333
+#: inc/mega-menu/tmpl/background.php:4
 msgid "Background Image"
 msgstr ""
 
@@ -518,12 +549,12 @@ msgid "Background Horizontal"
 msgstr ""
 
 #: inc/backend/customizer.php:1005 inc/backend/customizer.php:2522
-#: inc/backend/meta-boxes.php:237
+#: inc/backend/meta-boxes.php:237 inc/mega-menu/tmpl/background.php:36
 msgid "Left"
 msgstr ""
 
 #: inc/backend/customizer.php:1007 inc/backend/customizer.php:2524
-#: inc/backend/meta-boxes.php:239
+#: inc/backend/meta-boxes.php:239 inc/mega-menu/tmpl/background.php:38
 msgid "Right"
 msgstr ""
 
@@ -533,22 +564,22 @@ msgid "Background Vertical"
 msgstr ""
 
 #: inc/backend/customizer.php:1025 inc/backend/customizer.php:2535
-#: inc/backend/meta-boxes.php:249
+#: inc/backend/meta-boxes.php:249 inc/mega-menu/tmpl/background.php:51
 msgid "Top"
 msgstr ""
 
 #: inc/backend/customizer.php:1027 inc/backend/customizer.php:2537
-#: inc/backend/meta-boxes.php:251
+#: inc/backend/meta-boxes.php:251 inc/mega-menu/tmpl/background.php:53
 msgid "Bottom"
 msgstr ""
 
 #: inc/backend/customizer.php:1039 inc/backend/customizer.php:2542
-#: inc/backend/meta-boxes.php:255
+#: inc/backend/meta-boxes.php:255 inc/mega-menu/tmpl/background.php:23
 msgid "Background Repeat"
 msgstr ""
 
 #: inc/backend/customizer.php:1045 inc/backend/customizer.php:2548
-#: inc/backend/meta-boxes.php:261
+#: inc/backend/meta-boxes.php:261 inc/mega-menu/tmpl/background.php:25
 msgid "No Repeat"
 msgstr ""
 
@@ -568,17 +599,17 @@ msgid "Repeat Horizontal"
 msgstr ""
 
 #: inc/backend/customizer.php:1060 inc/backend/customizer.php:2556
-#: inc/backend/meta-boxes.php:268
+#: inc/backend/meta-boxes.php:268 inc/mega-menu/tmpl/background.php:64
 msgid "Background Attachment"
 msgstr ""
 
 #: inc/backend/customizer.php:1066 inc/backend/customizer.php:2562
-#: inc/backend/meta-boxes.php:274
+#: inc/backend/meta-boxes.php:274 inc/mega-menu/tmpl/background.php:66
 msgid "Scroll"
 msgstr ""
 
 #: inc/backend/customizer.php:1067 inc/backend/customizer.php:2563
-#: inc/backend/meta-boxes.php:275
+#: inc/backend/meta-boxes.php:275 inc/mega-menu/tmpl/background.php:67
 msgid "Fixed"
 msgstr ""
 
@@ -961,12 +992,14 @@ msgstr ""
 #: inc/backend/customizer.php:1849 inc/frontend/woocommerce.php:551
 #: inc/frontend/woocommerce.php:1789
 #: inc/mega-menu/class-mega-menu-walker.php:334
+#: inc/mega-menu/tmpl/general.php:17
 msgid "Hot"
 msgstr "Hot"
 
 #: inc/backend/customizer.php:1850 inc/backend/customizer.php:1947
 #: inc/frontend/woocommerce.php:557 inc/frontend/woocommerce.php:1793
 #: inc/mega-menu/class-mega-menu-walker.php:337
+#: inc/mega-menu/tmpl/general.php:24
 msgid "New"
 msgstr "Nieuw"
 
@@ -978,7 +1011,7 @@ msgstr "Aanbieding"
 #: inc/backend/customizer.php:1852 inc/frontend/woocommerce.php:502
 #: inc/frontend/woocommerce.php:1783
 msgid "Out Of Stock"
-msgstr ""
+msgstr "Uitverkocht"
 
 #: inc/backend/customizer.php:1854
 msgid "Select which badges you want to show"
@@ -1065,15 +1098,15 @@ msgstr ""
 #: woocommerce/pdf/gadgetexpress/invoice.php:102
 #: woocommerce/pdf/gadgetexpress/packing-slip.php:89
 msgid "SKU"
-msgstr ""
+msgstr "Artikelnummer"
 
 #: inc/backend/customizer.php:2109
 msgid "Categories"
-msgstr ""
+msgstr "Categorieën"
 
 #: inc/backend/customizer.php:2110
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
 #: inc/backend/customizer.php:2112
 msgid "Select which product meta you want to show in single product page"
@@ -1235,7 +1268,7 @@ msgid "Just show newsletter on HomePage"
 msgstr ""
 
 #: inc/backend/customizer.php:2418 inc/widgets/product-cat.php:41
-#: inc/widgets/product-tag.php:41
+#: inc/widgets/product-tag.php:41 inc/widgets/socials.php:116
 msgid "Style"
 msgstr ""
 
@@ -1578,6 +1611,10 @@ msgstr ""
 msgid "Extra"
 msgstr "Extra"
 
+#: inc/backend/product-meta-box-data.php:112
+msgid "You need to add attributes on the Attributes tab."
+msgstr ""
+
 #: inc/backend/product-meta-box-data.php:136
 msgid "Custom Badge Text"
 msgstr ""
@@ -1612,6 +1649,11 @@ msgstr ""
 msgid "The Latest Posts"
 msgstr "Nieuwste berichten"
 
+#: inc/frontend/footer.php:435 inc/frontend/footer.php:516
+#: inc/frontend/footer.php:553 inc/mega-menu/class-menu-edit.php:146
+msgid "Close"
+msgstr ""
+
 #: inc/frontend/header.php:139
 msgid "has been added to your cart."
 msgstr "is toegevoegd aan je winkelwagen."
@@ -1631,6 +1673,12 @@ msgstr "Winkelwagen"
 #: inc/frontend/woocommerce.php:359 inc/functions/header.php:224
 msgid "Orders History"
 msgstr "Recente bestellingen"
+
+#: inc/frontend/woocommerce.php:600
+#: woocommerce/pdf/gadgetexpress/invoice.php:103
+#: woocommerce/pdf/gadgetexpress/packing-slip.php:90
+msgid "SKU:"
+msgstr "Artikelnummer:"
 
 #: inc/frontend/woocommerce.php:606
 msgid "N/A"
@@ -1660,7 +1708,7 @@ msgstr "Selecteer"
 msgid "Product navigation"
 msgstr "Navigatie"
 
-#: inc/frontend/woocommerce.php:1129
+#: inc/frontend/woocommerce.php:1129 woocommerce/single-product-reviews.php:37
 msgid "Reviews"
 msgstr "Beoordelingen"
 
@@ -1690,11 +1738,11 @@ msgstr "Prijs: hoog naar laag"
 
 #: inc/frontend/woocommerce.php:1200 woocommerce/myaccount/dashboard.php:35
 msgid "Hello!"
-msgstr ""
+msgstr "Hallo!"
 
 #: inc/frontend/woocommerce.php:1224
 msgid "Nothing found"
-msgstr ""
+msgstr "Geen overeenkomsten gevonden"
 
 #: inc/functions/breadcrumbs.php:21
 msgid "Home"
@@ -1732,6 +1780,10 @@ msgstr ""
 #: inc/functions/breadcrumbs.php:191
 #, php-format
 msgid "%s %s"
+msgstr ""
+
+#: inc/functions/comments.php:51
+msgid "Your comment is awaiting moderation."
 msgstr ""
 
 #: inc/functions/comments.php:59
@@ -1809,7 +1861,7 @@ msgstr ""
 
 #: inc/functions/entry.php:504
 msgid "Share"
-msgstr ""
+msgstr "Deel"
 
 #: inc/functions/entry.php:505 inc/widgets/socials.php:33
 msgid "Skype"
@@ -1869,7 +1921,7 @@ msgstr "Mijn account"
 
 #: inc/functions/header.php:222
 msgid "Account Settings"
-msgstr ""
+msgstr "Account instellingen"
 
 #: inc/functions/header.php:243
 msgid "Logout"
@@ -1885,11 +1937,11 @@ msgstr "Laden…"
 
 #: inc/functions/nav.php:106
 msgid "Older posts"
-msgstr ""
+msgstr "Oudere reacties"
 
 #: inc/functions/nav.php:113
 msgid "Newer posts"
-msgstr ""
+msgstr "Nieuwere reacties"
 
 #: inc/functions/nav.php:141 inc/functions/nav.php:171
 msgid "Prev"
@@ -2280,11 +2332,74 @@ msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #: inc/mega-menu/class-mega-menu-walker.php:340
+#: inc/mega-menu/tmpl/general.php:31
 msgid "Trending"
 msgstr ""
 
 #: inc/mega-menu/class-menu-edit.php:93
 msgid "Settings"
+msgstr ""
+
+#: inc/mega-menu/class-menu-edit.php:161
+msgid "Save Changes"
+msgstr ""
+
+#: inc/mega-menu/class-menu-edit.php:162
+msgid "Cancel"
+msgstr ""
+
+#: inc/mega-menu/tmpl/background.php:11 woocommerce/wishlist-view.php:241
+msgid "Remove"
+msgstr ""
+
+#: inc/mega-menu/tmpl/background.php:12
+#, fuzzy
+#| msgid "Select"
+msgid "Select Image"
+msgstr "Selecteer"
+
+#: inc/mega-menu/tmpl/background.php:26
+msgid "Tile"
+msgstr ""
+
+#: inc/mega-menu/tmpl/background.php:27
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/mega-menu/tmpl/background.php:28
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/mega-menu/tmpl/background.php:33
+msgid "Background Position"
+msgstr ""
+
+#: inc/mega-menu/tmpl/background.php:52
+msgid "Middle"
+msgstr ""
+
+#: inc/mega-menu/tmpl/content.php:9
+msgid "Allow HTML and Shortcodes"
+msgstr ""
+
+#: inc/mega-menu/tmpl/general.php:9
+msgid "Hide Text"
+msgstr ""
+
+#: inc/mega-menu/tmpl/mega.php:5 inc/mega-menu/tmpl/menus.php:2
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/mega-menu/tmpl/mega.php:11
+msgid "Mega Width"
+msgstr ""
+
+#: inc/mega-menu/tmpl/menus.php:3
+msgid "Background"
+msgstr ""
+
+#: inc/mega-menu/tmpl/menus.php:6
+msgid "Menu Content"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:725
@@ -2311,6 +2426,32 @@ msgstr ""
 msgid "Gadget Express Price Filter List"
 msgstr ""
 
+#: inc/widgets/filter-price-list.php:249
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/filter-price-list.php:256
+msgid "Content:"
+msgstr ""
+
+#: inc/widgets/filter-price-list.php:261
+msgid ""
+"Enter the price by format: min_price|max_price. Divide price list with "
+"linebreaks (Enter). Example:"
+msgstr ""
+
+#: inc/widgets/filter-price-list.php:262
+msgid "100|200"
+msgstr ""
+
+#: inc/widgets/filter-price-list.php:262
+msgid "200|300"
+msgstr ""
+
+#: inc/widgets/filter-price-list.php:263
+msgid "300|400"
+msgstr ""
+
 #: inc/widgets/language-currency.php:28
 msgid ""
 "Shows language list by WPML plugin and currency list by WooCommerce Currency "
@@ -2321,6 +2462,42 @@ msgstr ""
 msgid "Gadget Express Language & Currency"
 msgstr ""
 
+#: inc/widgets/language-currency.php:126
+msgid "Language Text:"
+msgstr ""
+
+#: inc/widgets/language-currency.php:132
+msgid "Currency Text:"
+msgstr ""
+
+#: inc/widgets/language-currency.php:139
+msgid "Type:"
+msgstr ""
+
+#: inc/widgets/language-currency.php:142
+#, fuzzy
+#| msgid "EAN Code"
+msgid "Code"
+msgstr "EAN-code"
+
+#: inc/widgets/language-currency.php:143
+#: woocommerce/pdf/gadgetexpress/invoice.php:97
+#: woocommerce/pdf/gadgetexpress/packing-slip.php:84
+msgid "Description"
+msgstr "Beschrijving"
+
+#: inc/widgets/language-currency.php:148
+msgid "Show:"
+msgstr ""
+
+#: inc/widgets/language-currency.php:152
+msgid "Only Currency"
+msgstr ""
+
+#: inc/widgets/language-currency.php:153
+msgid "Only Language"
+msgstr ""
+
 #: inc/widgets/popular-posts.php:25
 msgid "Gadget Express - PopularPost"
 msgstr ""
@@ -2328,6 +2505,19 @@ msgstr ""
 #: inc/widgets/popular-posts.php:28
 msgid "Display most popular posts"
 msgstr ""
+
+#: inc/widgets/popular-posts.php:111 inc/widgets/product-cat.php:32
+#: inc/widgets/product-sort-by.php:71 inc/widgets/product-tag.php:32
+#: inc/widgets/socials.php:109 inc/widgets/widget-layered-nav-filters.php:34
+#: inc/widgets/woo-attributes-filter.php:80
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/popular-posts.php:121
+#, fuzzy
+#| msgid "Newer posts"
+msgid "Number Of Posts"
+msgstr "Nieuwere reacties"
 
 #: inc/widgets/product-cat.php:25
 msgid "A list of product categories."
@@ -2340,12 +2530,6 @@ msgstr ""
 #: inc/widgets/product-cat.php:31
 msgid "Product Categories"
 msgstr "Productcategorieën"
-
-#: inc/widgets/product-cat.php:32 inc/widgets/product-tag.php:32
-#: inc/widgets/widget-layered-nav-filters.php:34
-#: inc/widgets/woo-attributes-filter.php:80
-msgid "Title"
-msgstr ""
 
 #: inc/widgets/product-cat.php:38 inc/widgets/product-tag.php:38
 #: inc/widgets/socials.php:103
@@ -2454,10 +2638,28 @@ msgstr ""
 msgid "OR"
 msgstr ""
 
+#: parts/content-none.php:13
+#, fuzzy
+#| msgid "Nothing found"
+msgid "Nothing Found"
+msgstr "Geen overeenkomsten gevonden"
+
 #: parts/content-none.php:19
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
 #: parts/content-page.php:15 parts/content-single.php:26
@@ -2497,8 +2699,8 @@ msgid "Buy the coolest gadgets at Gadget Express!"
 msgstr "Koop the coolste gadgets bij Gadget Express!"
 
 #: parts/home/content-hero.php:23
-msgid "Shop Products"
-msgstr "Producten"
+msgid "Shop Gadgets"
+msgstr "Shop Gadgets"
 
 #: parts/home/products-home.php:21
 msgid "Tech"
@@ -2559,29 +2761,89 @@ msgstr "Er zijn geen verzendopties gevonden voor %s."
 msgid "Enter a different address"
 msgstr "Voer een ander adres in"
 
-#: woocommerce/cart/cart.php:73 woocommerce/cart/cart.php:125
+#: woocommerce/cart/cart.php:28
+#, fuzzy
+#| msgid "Remove this item"
+msgid "Remove item"
+msgstr "Verwijder dit artikel"
+
+#: woocommerce/cart/cart.php:29
+msgid "Thumbnail image"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/emails/email-order-details.php:42
+#: woocommerce/pdf/gadgetexpress/invoice.php:88
+#: woocommerce/pdf/gadgetexpress/packing-slip.php:76
+#: woocommerce/wishlist-view.php:57
+msgid "Product"
+msgstr "Product"
+
+#: woocommerce/cart/cart.php:31 woocommerce/emails/email-order-details.php:44
+#: woocommerce/pdf/gadgetexpress/invoice.php:90
+msgid "Price"
+msgstr "Prijs"
+
+#: woocommerce/cart/cart.php:32 woocommerce/emails/email-order-details.php:43
+#: woocommerce/global/quantity-input.php:28
+#: woocommerce/pdf/gadgetexpress/invoice.php:89
+#: woocommerce/pdf/gadgetexpress/packing-slip.php:77
+msgid "Quantity"
+msgstr "Aantal"
+
+#: woocommerce/cart/cart.php:33
+msgid "Total"
+msgstr "Totaal"
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/mini-cart.php:92
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: woocommerce/cart/cart.php:57
 msgid "Remove this item"
 msgstr "Verwijder dit artikel"
 
-#: woocommerce/cart/cart.php:76
-msgid "Delete"
-msgstr "Verwijderen"
-
-#: woocommerce/cart/cart.php:82
+#: woocommerce/cart/cart.php:93
 msgid "Available on backorder"
 msgstr "Beschikbaar via nabestelling"
 
+#: woocommerce/cart/cart.php:152
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:156
+msgid "Coupon:"
+msgstr ""
+
 #: woocommerce/cart/mini-cart.php:80
+#: woocommerce/single-product/add-to-cart/grouped.php:29
 msgid "Qty"
 msgstr "Aantal"
+
+#: woocommerce/cart/mini-cart.php:105
+msgid "No products in the cart."
+msgstr "Geen producten in de winkelwagen."
 
 #: woocommerce/checkout/form-checkout.php:28
 msgid "You must be logged in to checkout."
 msgstr "Je moet ingelogd zijn om af te rekenen."
 
+#: woocommerce/checkout/form-checkout.php:58
+#, fuzzy
+#| msgid "Your review"
+msgid "Your order"
+msgstr "Je beoordeling"
+
 #: woocommerce/checkout/form-coupon.php:26
 msgid "enter your coupon code"
 msgstr "Vul een kortingsbon in."
+
+#: woocommerce/checkout/form-coupon.php:30
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:37
+msgid "Apply coupon"
+msgstr ""
 
 #: woocommerce/checkout/form-login.php:26
 msgid "Click here to login"
@@ -2606,16 +2868,20 @@ msgid ""
 "Your order has been handed over to the delivery service. You can find the "
 "package in your mailbox automatically."
 msgstr ""
+"Je bestelling is overgedragen aan de bezorgdienst. Je vindt het pakket "
+"automatisch in je brievenbus."
 
 #: woocommerce/emails/customer-completed-order.php:32
 msgid ""
 "If you have questions about your order you can e-mail us at <a href=\"mailto:"
 "info@gadgetexpress.shop\">info@gadgetexpress.shop</a>"
 msgstr ""
+"Als u vragen heeft over uw bestelling kunt u ons mailen op <a href=\"mailto:"
+"info@gadgetexpress.shop\">info@gadgetexpress.shop</a>"
 
 #: woocommerce/emails/customer-processing-order.php:29
 msgid "Great that you chose our store. We will start immediately."
-msgstr ""
+msgstr "Leuk dat je voor onze winkel hebt gekozen. We gaan direct aan de slag."
 
 #: woocommerce/emails/customer-processing-order.php:30
 msgid ""
@@ -2629,16 +2895,34 @@ msgstr ""
 msgid "Order number %s"
 msgstr "Bestelnummer %s"
 
+#: woocommerce/emails/email-order-details.php:80
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/global/form-login.php:34
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:38
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:47 woocommerce/myaccount/form-login.php:31
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:50 woocommerce/myaccount/form-login.php:59
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:54
+msgid "Lost your password?"
+msgstr ""
+
 #: woocommerce/global/quantity-input.php:28
 #, php-format
 msgid "%s quantity"
 msgstr "%s aantal"
-
-#: woocommerce/global/quantity-input.php:28
-#: woocommerce/pdf/gadgetexpress/invoice.php:89
-#: woocommerce/pdf/gadgetexpress/packing-slip.php:77
-msgid "Quantity"
-msgstr "Aantal"
 
 #: woocommerce/loop/orderby.php:62
 msgid "Sort by"
@@ -2669,6 +2953,24 @@ msgstr "Postcode"
 msgid "Edit Profile"
 msgstr "Profiel bewerken"
 
+#: woocommerce/myaccount/form-edit-account.php:36
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:33
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:52
+msgid "Forgot?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:102
+msgid "Anti-spam"
+msgstr ""
+
 #: woocommerce/myaccount/my-address.php:27
 #: woocommerce/myaccount/my-address.php:32
 msgid "Billing Information"
@@ -2678,17 +2980,27 @@ msgstr "Factuurgegevens"
 msgid "Shipping Information"
 msgstr "Verzendgegevens"
 
+#: woocommerce/myaccount/my-address.php:40
+#, fuzzy
+#| msgid "Billing Address:"
+msgid "Billing Adresses"
+msgstr "Factuuradres:"
+
 #: woocommerce/myaccount/my-address.php:43
 msgid "The following addresses will be used on the checkout page by default."
 msgstr "De volgende adressen worden standaard gebruikt op de afrekenpagina."
 
+#: woocommerce/myaccount/my-address.php:71
+msgid "You have not set up this type of address yet."
+msgstr ""
+
 #: woocommerce/myaccount/my-address.php:78
 msgid "Edit your billing address"
-msgstr ""
+msgstr "Factuuradres bewerken"
 
 #: woocommerce/myaccount/my-address.php:80
 msgid "Edit your shipping address"
-msgstr ""
+msgstr "Verzendadres bewerken"
 
 #: woocommerce/pdf/gadgetexpress/invoice.php:31
 #: woocommerce/pdf/gadgetexpress/packing-slip.php:44
@@ -2721,26 +3033,6 @@ msgstr "Besteldatum:"
 msgid "Payment Method:"
 msgstr "Betaalmethode:"
 
-#: woocommerce/pdf/gadgetexpress/invoice.php:88
-#: woocommerce/pdf/gadgetexpress/packing-slip.php:76
-#: woocommerce/wishlist-view.php:85
-msgid "Product"
-msgstr "Product"
-
-#: woocommerce/pdf/gadgetexpress/invoice.php:90
-msgid "Price"
-msgstr "Prijs"
-
-#: woocommerce/pdf/gadgetexpress/invoice.php:97
-#: woocommerce/pdf/gadgetexpress/packing-slip.php:84
-msgid "Description"
-msgstr "Beschrijving"
-
-#: woocommerce/pdf/gadgetexpress/invoice.php:103
-#: woocommerce/pdf/gadgetexpress/packing-slip.php:90
-msgid "SKU:"
-msgstr "Artikelnummer:"
-
 #: woocommerce/pdf/gadgetexpress/invoice.php:104
 #: woocommerce/pdf/gadgetexpress/packing-slip.php:91
 msgid "Weight:"
@@ -2758,6 +3050,10 @@ msgstr "Verzendadres:"
 #: woocommerce/pdf/gadgetexpress/packing-slip.php:62
 msgid "Shipping Method:"
 msgstr "Verzendmethode:"
+
+#: woocommerce/single-product-reviews.php:64
+msgid "There are no reviews yet."
+msgstr ""
 
 #: woocommerce/single-product-reviews.php:75
 msgid "Add a review"
@@ -2778,6 +3074,7 @@ msgid "Submit"
 msgstr "Verzenden"
 
 #: woocommerce/single-product-reviews.php:89
+#: woocommerce/single-product/add-to-cart/grouped.php:28
 msgid "Name"
 msgstr "Naam"
 
@@ -2818,8 +3115,13 @@ msgstr "Zeer slecht"
 msgid "Your review"
 msgstr "Je beoordeling"
 
+#: woocommerce/single-product-reviews.php:141
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
 #: woocommerce/single-product/add-to-cart/simple.php:52
-#: woocommerce/wishlist-view.php:192 woocommerce/wishlist-view.php:215
+#: woocommerce/wishlist-view.php:164 woocommerce/wishlist-view.php:187
 msgid "In Stock"
 msgstr "Op voorraad"
 
@@ -2854,54 +3156,70 @@ msgstr "bij"
 msgid "Awaiting product image"
 msgstr "Nog geen productfoto beschikbaar"
 
-#: woocommerce/wishlist-view.php:92
+#: woocommerce/wishlist-view.php:64
 msgid "Unit Price"
 msgstr "Prijs"
 
-#: woocommerce/wishlist-view.php:105
+#: woocommerce/wishlist-view.php:77
 msgid "Stock Status"
 msgstr "Voorraad status"
 
-#: woocommerce/wishlist-view.php:181 woocommerce/wishlist-view.php:204
+#: woocommerce/wishlist-view.php:131 woocommerce/wishlist-view.php:241
+#, fuzzy
+#| msgid "Remove this item"
+msgid "Remove this product"
+msgstr "Verwijder dit artikel"
+
+#: woocommerce/wishlist-view.php:153 woocommerce/wishlist-view.php:176
 msgid "Free!"
 msgstr "Gratis!"
 
-#: woocommerce/wishlist-view.php:190 woocommerce/wishlist-view.php:213
+#: woocommerce/wishlist-view.php:162 woocommerce/wishlist-view.php:185
 msgid "Out of Stock"
 msgstr "Uitverkocht"
 
-#: woocommerce/wishlist-view.php:225
+#: woocommerce/wishlist-view.php:197
 #, php-format
 msgid "Added on : %s"
 msgstr "Toegevoegd op: %s"
 
-#: woocommerce/wishlist-view.php:249
+#: woocommerce/wishlist-view.php:209
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:221
 msgid "Shared"
 msgstr "Gedeeld"
 
-#: woocommerce/wishlist-view.php:251
+#: woocommerce/wishlist-view.php:223
 msgid "Private"
 msgstr ""
 
-#: woocommerce/wishlist-view.php:253
+#: woocommerce/wishlist-view.php:225
 msgid "Public"
 msgstr ""
 
-#: woocommerce/wishlist-view.php:280
+#: woocommerce/wishlist-view.php:252
 msgid "No products were added to the wishlist"
-msgstr ""
+msgstr "Geen producten toegevoegd aan de wensenlijst"
 
-#: woocommerce/wishlist-view.php:301
+#: woocommerce/wishlist-view.php:273
 msgid "Add the selected products to the cart"
 msgstr "Toevoegen aan winkelwagen"
 
-#: woocommerce/wishlist-view.php:310 woocommerce/wishlist-view.php:357
+#: woocommerce/wishlist-view.php:282 woocommerce/wishlist-view.php:329
 msgid "Ask for an estimate"
-msgstr ""
+msgstr "Vraag om een offerte"
 
-#: woocommerce/wishlist-view.php:347
+#: woocommerce/wishlist-view.php:319
 msgid "Your email"
-msgstr ""
+msgstr "Je e-mailadres"
+
+#~ msgid "Shop Products"
+#~ msgstr "Producten"
+
+#~ msgid "Delete"
+#~ msgstr "Verwijderen"
 
 #~ msgid "For orders within the Netherlands"
 #~ msgstr "voor bestellingen binnen Nederland"
